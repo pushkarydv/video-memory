@@ -4,7 +4,8 @@
   "description": "search across videos for any text based input",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "train": "node src/train-on-videos.js"
   },
   "repository": {
     "type": "git",
