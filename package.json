@@ -1,0 +1,27 @@
+{
+  "name": "video-memory",
+  "version": "1.0.0",
+  "description": "search across videos for any text based input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushkarydv/video-memory.git"
+  },
+  "author": "Pushkar Yadav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushkarydv/video-memory/issues"
+  },
+  "homepage": "https://github.com/pushkarydv/video-memory#readme",
+  "dependencies": {
+    "@google/genai": "^0.13.0",
+    "@google/generative-ai": "^0.24.1",
+    "@upstash/vector": "^1.2.1",
+    "cloudinary": "^2.6.1",
+    "dotenv": "^16.5.0",
+    "openai": "^4.97.0"
+  }
+}
