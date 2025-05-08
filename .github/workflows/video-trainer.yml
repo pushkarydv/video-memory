@@ -6,7 +6,7 @@ on:
 jobs:
   train:
     runs-on: ubuntu-latest
-    environment: ${{ github.ref == 'refs/heads/main' && 'prod' || 'staging' }}
+    environment: ${{ github.ref == 'refs/heads/main' && 'video-trainer-prod'}}
     steps:
       - uses: actions/checkout@v4
       
