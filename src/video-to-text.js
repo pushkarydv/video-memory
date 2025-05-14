@@ -28,8 +28,9 @@ export const convert_youtube_video_to_text = async (url, detail_level = 'medium'
       low: 'Please provide a brief overview of the video, strictly keeping it between more then 50 and less then 200 words. Focus on main points only. The output should contain only the summary and no other information.',
       medium: 'Please provide a concise summary of the video, strictly keeping it between more then 200 and less then 500 words. Include key points and important details. The output should contain only the summary and no other information.',
       high: 'Please provide a detailed summary of the video, strictly keeping it between more then 500 and less then 1000 words. Include comprehensive analysis, key points, and supporting details. The output should contain only the summary and no other information.'
-    }[detail_level];
+    }[detail_level] + " Output should be in english despite the video being in a different language.";
 
+    
     if (!prompt) {
       throw new Error('Invalid detail level');
     }
