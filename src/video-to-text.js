@@ -43,7 +43,7 @@ export const convert_youtube_video_to_text = async (url, detail_level = 'medium'
         },
       },
     ]);
-    console.log(result.response.text());
+    // console.log(result.response.text());
 
     return result.response.text();
   } catch (error) {
